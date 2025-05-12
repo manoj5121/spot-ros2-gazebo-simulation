@@ -1,0 +1,1 @@
+/home/manoj/spot_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/__init__.py

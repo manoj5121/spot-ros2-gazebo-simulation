@@ -1,0 +1,2 @@
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;share/spot_gazebo/worlds
+prepend-non-duplicate;IGN_GAZEBO_SYSTEM_PLUGIN_PATH;lib/spot_gazebo/

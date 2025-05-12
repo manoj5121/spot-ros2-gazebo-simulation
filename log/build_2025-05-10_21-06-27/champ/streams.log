@@ -1,0 +1,77 @@
+[0.020s] Invoking command in '/home/manoj/spot_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/manoj/spot_ws/src/spot_gazebo/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/spot_ws/install/champ
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.401s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.462s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.481s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.523s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.529s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.539s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.613s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.615s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.693s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.720s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.763s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.772s] -- Looking for pthread.h
+[0.829s] -- Looking for pthread.h - found
+[0.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.885s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.886s] -- Found Threads: TRUE  
+[0.931s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.973s] -- Configuring done
+[0.974s] -- Generating done
+[0.976s] -- Build files have been written to: /home/manoj/spot_ws/build/champ
+[0.981s] Invoked command in '/home/manoj/spot_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/manoj/spot_ws/src/spot_gazebo/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/spot_ws/install/champ
+[0.982s] Invoking command in '/home/manoj/spot_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/champ -- -j12 -l12
+[1.018s] Invoked command in '/home/manoj/spot_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/champ -- -j12 -l12
+[1.018s] Invoking command in '/home/manoj/spot_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/champ
+[1.022s] -- Install configuration: ""
+[1.022s] -- Execute custom install script
+[1.023s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/LICENSE
+[1.030s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/README.md
+[1.037s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/bla/basic_linear_algebra.h
+[1.045s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/bla/memory_delegate.h
+[1.053s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/body_controller/body_controller.h
+[1.059s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/geometry/geometry.h
+[1.067s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/kinematics/kinematics.h
+[1.073s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/leg_controller/leg_controller.h
+[1.081s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/leg_controller/phase_generator.h
+[1.087s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/leg_controller/trajectory_planner.h
+[1.095s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/macros/macros.h
+[1.102s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/odometry/odometry.h
+[1.108s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/quadruped_base/quadruped_base.h
+[1.116s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/quadruped_base/quadruped_components.h
+[1.123s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/quadruped_base/quadruped_joint.h
+[1.130s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/quadruped_base/quadruped_leg.h
+[1.136s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/utils/urdf_loader.h
+[1.143s] -- Symlinking: /home/manoj/spot_ws/install/champ/include/champ/utils/xmlrpc_helpers.h
+[1.151s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/ament_index/resource_index/package_run_dependencies/champ
+[1.158s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/ament_index/resource_index/parent_prefix_path/champ
+[1.163s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/environment/ament_prefix_path.sh
+[1.169s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/environment/ament_prefix_path.dsv
+[1.175s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/environment/path.sh
+[1.183s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/environment/path.dsv
+[1.189s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/local_setup.bash
+[1.196s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/local_setup.sh
+[1.203s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/local_setup.zsh
+[1.210s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/local_setup.dsv
+[1.217s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/package.dsv
+[1.223s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/ament_index/resource_index/packages/champ
+[1.230s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.237s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/cmake/champConfig.cmake
+[1.243s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/cmake/champConfig-version.cmake
+[1.250s] -- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/package.xml
+[1.259s] Invoked command in '/home/manoj/spot_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/champ

@@ -1,0 +1,1 @@
+/home/manoj/spot_ws/src/spot_gazebo/spot_navigation/launch/AMCL_localization.launch.py

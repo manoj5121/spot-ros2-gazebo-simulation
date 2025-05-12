@@ -1,0 +1,44 @@
+[0.013s] Invoking command in '/home/manoj/spot_ws/build/champ_config': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_base/lib:/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/spot_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/manoj/spot_ws/src/spot_gazebo/champ_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/spot_ws/install/champ_config
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.284s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.285s] -- Detecting CXX compile features
+[0.285s] -- Detecting CXX compile features - done
+[0.288s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.415s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.457s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.516s] -- Configuring done
+[0.517s] -- Generating done
+[0.518s] -- Build files have been written to: /home/manoj/spot_ws/build/champ_config
+[0.520s] Invoked command in '/home/manoj/spot_ws/build/champ_config' returned '0': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_base/lib:/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/spot_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/manoj/spot_ws/src/spot_gazebo/champ_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/spot_ws/install/champ_config
+[0.521s] Invoking command in '/home/manoj/spot_ws/build/champ_config': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_base/lib:/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/spot_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_config -- -j12 -l12
+[0.549s] Invoked command in '/home/manoj/spot_ws/build/champ_config' returned '0': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_base/lib:/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/spot_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_config -- -j12 -l12
+[0.551s] Invoking command in '/home/manoj/spot_ws/build/champ_config': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_base/lib:/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/spot_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_config
+[0.558s] -- Install configuration: ""
+[0.559s] -- Execute custom install script
+[0.559s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/config/gait/gait.yaml
+[0.569s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/config/joints/joints.yaml
+[0.579s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/config/links/links.yaml
+[0.589s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/ament_index/resource_index/package_run_dependencies/champ_config
+[0.597s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/ament_index/resource_index/parent_prefix_path/champ_config
+[0.607s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/environment/ament_prefix_path.sh
+[0.617s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/environment/ament_prefix_path.dsv
+[0.627s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/environment/path.sh
+[0.637s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/environment/path.dsv
+[0.648s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/local_setup.bash
+[0.654s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/local_setup.sh
+[0.662s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/local_setup.zsh
+[0.672s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/local_setup.dsv
+[0.683s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/package.dsv
+[0.692s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/ament_index/resource_index/packages/champ_config
+[0.702s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/cmake/champ_configConfig.cmake
+[0.713s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/cmake/champ_configConfig-version.cmake
+[0.722s] -- Symlinking: /home/manoj/spot_ws/install/champ_config/share/champ_config/package.xml
+[0.733s] Invoked command in '/home/manoj/spot_ws/build/champ_config' returned '0': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_base/lib:/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/spot_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_config

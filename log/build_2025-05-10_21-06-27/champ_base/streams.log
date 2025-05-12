@@ -1,0 +1,97 @@
+[0.010s] Invoking command in '/home/manoj/spot_ws/build/champ_base': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/manoj/spot_ws/src/spot_gazebo/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/spot_ws/install/champ_base
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.287s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.288s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.433s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.450s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.475s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.478s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.483s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.524s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.525s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.598s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.629s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.657s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.662s] -- Looking for pthread.h
+[0.733s] -- Looking for pthread.h - found
+[0.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.804s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.805s] -- Found Threads: TRUE  
+[0.835s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.835s] -- Found champ_msgs: 0.1.0 (/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/cmake)
+[0.852s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.875s] -- Found trajectory_msgs: 4.8.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.885s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.895s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.954s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.970s] -- Found champ: 0.1.0 (/home/manoj/spot_ws/install/champ/share/champ/cmake)
+[1.020s] -- Configuring done
+[1.041s] -- Generating done
+[1.049s] -- Build files have been written to: /home/manoj/spot_ws/build/champ_base
+[1.055s] Invoked command in '/home/manoj/spot_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/manoj/spot_ws/src/spot_gazebo/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/spot_ws/install/champ_base
+[1.056s] Invoking command in '/home/manoj/spot_ws/build/champ_base': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_base -- -j12 -l12
+[1.107s] [  8%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[1.109s] [ 16%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[1.110s] [ 25%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[10.778s] [ 33%] [32m[1mLinking CXX shared library libmessage_relay.so[0m
+[11.350s] [ 41%] [32m[1mLinking CXX shared library libquadruped_controller.so[0m
+[11.589s] [ 41%] Built target message_relay
+[11.608s] [ 50%] [32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o[0m
+[11.824s] [ 50%] Built target quadruped_controller
+[11.842s] [ 58%] [32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o[0m
+[12.335s] [ 66%] [32m[1mLinking CXX shared library libstate_estimation.so[0m
+[13.075s] [ 66%] Built target state_estimation
+[13.095s] [ 75%] [32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o[0m
+[13.795s] [ 83%] [32m[1mLinking CXX executable message_relay_node[0m
+[14.200s] [ 83%] Built target message_relay_node
+[14.365s] [ 91%] [32m[1mLinking CXX executable quadruped_controller_node[0m
+[14.594s] [ 91%] Built target quadruped_controller_node
+[16.866s] [100%] [32m[1mLinking CXX executable state_estimation_node[0m
+[17.118s] [100%] Built target state_estimation_node
+[17.128s] Invoked command in '/home/manoj/spot_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_base -- -j12 -l12
+[17.130s] Invoking command in '/home/manoj/spot_ws/build/champ_base': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_base
+[17.136s] -- Install configuration: ""
+[17.137s] -- Execute custom install script
+[17.137s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[17.142s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[17.150s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[17.161s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/lib/libquadruped_controller.so
+[17.168s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/bin/quadruped_controller_node
+[17.177s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/lib/libmessage_relay.so
+[17.186s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/bin/message_relay_node
+[17.195s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/lib/libstate_estimation.so
+[17.204s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/bin/state_estimation_node
+[17.214s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/lib/champ_base/quadruped_controller_node
+[17.224s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/lib/champ_base/message_relay_node
+[17.234s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/lib/champ_base/state_estimation_node
+[17.244s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[17.254s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[17.264s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[17.273s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[17.282s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/environment/path.sh
+[17.292s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/environment/path.dsv
+[17.300s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/local_setup.bash
+[17.310s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/local_setup.sh
+[17.319s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/local_setup.zsh
+[17.328s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/local_setup.dsv
+[17.339s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/package.dsv
+[17.348s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[17.358s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.368s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.376s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[17.385s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[17.395s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/package.xml
+[17.409s] Invoked command in '/home/manoj/spot_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manoj/spot_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_base

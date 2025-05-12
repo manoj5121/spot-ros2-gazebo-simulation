@@ -1,0 +1,1 @@
+/home/manoj/spot_ws/build/champ_msgs/rosidl_generator_cpp/champ_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

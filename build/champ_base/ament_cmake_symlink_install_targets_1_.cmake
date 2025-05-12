@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/manoj/spot_ws/build/champ_base/quadruped_controller_node" "/home/manoj/spot_ws/build/champ_base/message_relay_node" "/home/manoj/spot_ws/build/champ_base/state_estimation_node" "TARGETS" "quadruped_controller_node" "message_relay_node" "state_estimation_node" "DESTINATION" "lib/champ_base")

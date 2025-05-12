@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/manoj/spot_ws/install/champ_msgs/include/**",
+        "/home/manoj/spot_ws/install/champ/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/manoj/spot_ws/src/spot_gazebo/champ/include/**",
+        "/home/manoj/spot_ws/src/spot_gazebo/champ_base/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

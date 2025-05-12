@@ -1,0 +1,16 @@
+[0.625s] Invoking command in '/home/manoj/spot_ws/build/spot_navigation': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_navigation/build --no-deps symlink_data
+[0.805s] running develop
+[0.923s] running egg_info
+[0.923s] writing spot_navigation.egg-info/PKG-INFO
+[0.923s] writing dependency_links to spot_navigation.egg-info/dependency_links.txt
+[0.923s] writing entry points to spot_navigation.egg-info/entry_points.txt
+[0.923s] writing requirements to spot_navigation.egg-info/requires.txt
+[0.923s] writing top-level names to spot_navigation.egg-info/top_level.txt
+[0.924s] reading manifest file 'spot_navigation.egg-info/SOURCES.txt'
+[0.925s] writing manifest file 'spot_navigation.egg-info/SOURCES.txt'
+[0.926s] running build_ext
+[0.926s] Creating /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot-navigation.egg-link (link to .)
+[0.926s] 
+[0.926s] Installed /home/manoj/spot_ws/build/spot_navigation
+[0.926s] running symlink_data
+[0.945s] Invoked command in '/home/manoj/spot_ws/build/spot_navigation' returned '0': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_navigation/build --no-deps symlink_data

@@ -1,0 +1,34 @@
+running develop
+running egg_info
+creating spot_navigation.egg-info
+writing spot_navigation.egg-info/PKG-INFO
+writing dependency_links to spot_navigation.egg-info/dependency_links.txt
+writing entry points to spot_navigation.egg-info/entry_points.txt
+writing requirements to spot_navigation.egg-info/requires.txt
+writing top-level names to spot_navigation.egg-info/top_level.txt
+writing manifest file 'spot_navigation.egg-info/SOURCES.txt'
+reading manifest file 'spot_navigation.egg-info/SOURCES.txt'
+writing manifest file 'spot_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot-navigation.egg-link (link to .)
+
+Installed /home/manoj/spot_ws/build/spot_navigation
+running symlink_data
+creating /home/manoj/spot_ws/install/spot_navigation/share/ament_index
+creating /home/manoj/spot_ws/install/spot_navigation/share/ament_index/resource_index
+creating /home/manoj/spot_ws/install/spot_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/resource/spot_navigation -> /home/manoj/spot_ws/install/spot_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/package.xml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation
+creating /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/AMCL_localization.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/slam_toolbox_online_async.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/dlo.mapping.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/dlo.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/lidar_localization.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+creating /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/dlo.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/localization.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/nav2_params.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/mapper_params_online_async.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/spot_nav.rviz -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/dlo.rviz -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config

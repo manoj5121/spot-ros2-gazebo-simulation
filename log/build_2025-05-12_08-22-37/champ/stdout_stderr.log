@@ -1,0 +1,51 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/manoj/spot_ws/build/champ
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/LICENSE
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/README.md
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/bla/basic_linear_algebra.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/bla/memory_delegate.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/body_controller/body_controller.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/geometry/geometry.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/kinematics/kinematics.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/leg_controller/leg_controller.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/leg_controller/phase_generator.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/leg_controller/trajectory_planner.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/macros/macros.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/odometry/odometry.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/quadruped_base/quadruped_base.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/quadruped_base/quadruped_components.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/quadruped_base/quadruped_joint.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/quadruped_base/quadruped_leg.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/utils/urdf_loader.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/include/champ/utils/xmlrpc_helpers.h
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/ament_index/resource_index/package_run_dependencies/champ
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/ament_index/resource_index/parent_prefix_path/champ
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/environment/path.sh
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/environment/path.dsv
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/local_setup.bash
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/local_setup.sh
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/local_setup.zsh
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/local_setup.dsv
+-- Symlinking: /home/manoj/spot_ws/install/champ/share/champ/package.dsv
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/ament_index/resource_index/packages/champ
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/cmake/champConfig.cmake
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/cmake/champConfig-version.cmake
+-- Up-to-date symlink: /home/manoj/spot_ws/install/champ/share/champ/package.xml

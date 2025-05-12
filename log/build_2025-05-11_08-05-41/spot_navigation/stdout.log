@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing spot_navigation.egg-info/PKG-INFO
+writing dependency_links to spot_navigation.egg-info/dependency_links.txt
+writing entry points to spot_navigation.egg-info/entry_points.txt
+writing requirements to spot_navigation.egg-info/requires.txt
+writing top-level names to spot_navigation.egg-info/top_level.txt
+reading manifest file 'spot_navigation.egg-info/SOURCES.txt'
+writing manifest file 'spot_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot-navigation.egg-link (link to .)
+
+Installed /home/manoj/spot_ws/build/spot_navigation
+running symlink_data

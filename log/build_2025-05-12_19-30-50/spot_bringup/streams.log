@@ -1,0 +1,21 @@
+[0.658s] Invoking command in '/home/manoj/spot_ws/src/spot_gazebo/spot_bringup': IGN_GAZEBO_PLUGIN_PATH=/home/manoj/spot_ws/install/spot_gazebo/lib/spot_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/home/manoj/spot_ws/build/spot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/spot_bringup build --build-base /home/manoj/spot_ws/build/spot_bringup/build install --record /home/manoj/spot_ws/build/spot_bringup/install.log --single-version-externally-managed install_data
+[0.863s] running egg_info
+[0.863s] writing ../../../build/spot_bringup/spot_bringup.egg-info/PKG-INFO
+[0.863s] writing dependency_links to ../../../build/spot_bringup/spot_bringup.egg-info/dependency_links.txt
+[0.863s] writing entry points to ../../../build/spot_bringup/spot_bringup.egg-info/entry_points.txt
+[0.863s] writing requirements to ../../../build/spot_bringup/spot_bringup.egg-info/requires.txt
+[0.863s] writing top-level names to ../../../build/spot_bringup/spot_bringup.egg-info/top_level.txt
+[0.864s] reading manifest file '../../../build/spot_bringup/spot_bringup.egg-info/SOURCES.txt'
+[0.865s] writing manifest file '../../../build/spot_bringup/spot_bringup.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.865s] running install
+[0.865s] running install_lib
+[0.866s] running install_data
+[0.866s] running install_egg_info
+[0.867s] removing '/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages/spot_bringup-0.0.1-py3.10.egg-info' (and everything under it)
+[0.867s] Copying ../../../build/spot_bringup/spot_bringup.egg-info to /home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages/spot_bringup-0.0.1-py3.10.egg-info
+[0.867s] running install_scripts
+[0.888s] Installing thermal_to_rgb script to /home/manoj/spot_ws/install/spot_bringup/lib/spot_bringup
+[0.888s] writing list of installed files to '/home/manoj/spot_ws/build/spot_bringup/install.log'
+[0.908s] Invoked command in '/home/manoj/spot_ws/src/spot_gazebo/spot_bringup' returned '0': IGN_GAZEBO_PLUGIN_PATH=/home/manoj/spot_ws/install/spot_gazebo/lib/spot_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/home/manoj/spot_ws/build/spot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/spot_bringup build --build-base /home/manoj/spot_ws/build/spot_bringup/build install --record /home/manoj/spot_ws/build/spot_bringup/install.log --single-version-externally-managed install_data

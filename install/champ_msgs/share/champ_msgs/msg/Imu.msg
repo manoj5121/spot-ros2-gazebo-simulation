@@ -1,0 +1,1 @@
+/home/manoj/spot_ws/src/spot_gazebo/champ_msgs/msg/Imu.msg

@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/manoj/spot_ws/build/champ_base': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:/home/manoj/spot_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_base -- -j12 -l12
+[0.094s] [ 16%] Built target quadruped_controller
+[0.096s] [ 33%] Built target state_estimation
+[0.103s] [ 50%] Built target message_relay
+[0.128s] [ 66%] Built target quadruped_controller_node
+[0.128s] [ 83%] Built target state_estimation_node
+[0.132s] [100%] Built target message_relay_node
+[0.153s] Invoked command in '/home/manoj/spot_ws/build/champ_base' returned '0': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:/home/manoj/spot_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_base -- -j12 -l12
+[0.155s] Invoking command in '/home/manoj/spot_ws/build/champ_base': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:/home/manoj/spot_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_base
+[0.168s] -- Install configuration: ""
+[0.168s] -- Execute custom install script
+[0.168s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/lib/libquadruped_controller.so
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/bin/quadruped_controller_node
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/lib/libmessage_relay.so
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/bin/message_relay_node
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/lib/libstate_estimation.so
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/bin/state_estimation_node
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/lib/champ_base/quadruped_controller_node
+[0.169s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/lib/champ_base/message_relay_node
+[0.170s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/lib/champ_base/state_estimation_node
+[0.170s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[0.170s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[0.170s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[0.170s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[0.170s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/environment/path.sh
+[0.172s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/environment/path.dsv
+[0.172s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/local_setup.bash
+[0.172s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/local_setup.sh
+[0.172s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/local_setup.zsh
+[0.172s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/local_setup.dsv
+[0.172s] -- Symlinking: /home/manoj/spot_ws/install/champ_base/share/champ_base/package.dsv
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/champ_base/share/champ_base/package.xml
+[0.195s] Invoked command in '/home/manoj/spot_ws/build/champ_base' returned '0': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:/home/manoj/spot_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_base

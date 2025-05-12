@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating spot_bringup.egg-info
+writing spot_bringup.egg-info/PKG-INFO
+writing dependency_links to spot_bringup.egg-info/dependency_links.txt
+writing entry points to spot_bringup.egg-info/entry_points.txt
+writing requirements to spot_bringup.egg-info/requires.txt
+writing top-level names to spot_bringup.egg-info/top_level.txt
+writing manifest file 'spot_bringup.egg-info/SOURCES.txt'
+reading manifest file 'spot_bringup.egg-info/SOURCES.txt'
+writing manifest file 'spot_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages/spot-bringup.egg-link (link to .)
+Installing thermal_to_rgb script to /home/manoj/spot_ws/install/spot_bringup/lib/spot_bringup
+
+Installed /home/manoj/spot_ws/build/spot_bringup
+running symlink_data
+creating /home/manoj/spot_ws/install/spot_bringup/share/ament_index
+creating /home/manoj/spot_ws/install/spot_bringup/share/ament_index/resource_index
+creating /home/manoj/spot_ws/install/spot_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/manoj/spot_ws/build/spot_bringup/resource/spot_bringup -> /home/manoj/spot_ws/install/spot_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/manoj/spot_ws/build/spot_bringup/package.xml -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup
+creating /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/launch
+symbolically linking /home/manoj/spot_ws/build/spot_bringup/launch/spot.gazebo.launch.py -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/launch
+creating /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/config
+symbolically linking /home/manoj/spot_ws/build/spot_bringup/config/spot_bridge.yaml -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/config
+symbolically linking /home/manoj/spot_ws/build/spot_bringup/config/spot.rviz -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/config
+symbolically linking /home/manoj/spot_ws/build/spot_bringup/config/spot_nav.rviz -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/config

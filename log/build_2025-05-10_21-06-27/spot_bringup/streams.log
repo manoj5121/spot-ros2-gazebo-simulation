@@ -1,0 +1,30 @@
+[0.401s] Invoking command in '/home/manoj/spot_ws/build/spot_bringup': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description IGN_GAZEBO_PLUGIN_PATH=/home/manoj/spot_ws/install/spot_gazebo/lib/spot_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/worlds:/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/home/manoj/spot_ws/build/spot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_bringup/build --no-deps symlink_data
+[0.740s] running develop
+[1.060s] running egg_info
+[1.060s] creating spot_bringup.egg-info
+[1.060s] writing spot_bringup.egg-info/PKG-INFO
+[1.061s] writing dependency_links to spot_bringup.egg-info/dependency_links.txt
+[1.064s] writing entry points to spot_bringup.egg-info/entry_points.txt
+[1.064s] writing requirements to spot_bringup.egg-info/requires.txt
+[1.064s] writing top-level names to spot_bringup.egg-info/top_level.txt
+[1.064s] writing manifest file 'spot_bringup.egg-info/SOURCES.txt'
+[1.064s] reading manifest file 'spot_bringup.egg-info/SOURCES.txt'
+[1.065s] writing manifest file 'spot_bringup.egg-info/SOURCES.txt'
+[1.067s] running build_ext
+[1.068s] Creating /home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages/spot-bringup.egg-link (link to .)
+[1.069s] Installing thermal_to_rgb script to /home/manoj/spot_ws/install/spot_bringup/lib/spot_bringup
+[1.069s] 
+[1.069s] Installed /home/manoj/spot_ws/build/spot_bringup
+[1.069s] running symlink_data
+[1.070s] creating /home/manoj/spot_ws/install/spot_bringup/share/ament_index
+[1.070s] creating /home/manoj/spot_ws/install/spot_bringup/share/ament_index/resource_index
+[1.070s] creating /home/manoj/spot_ws/install/spot_bringup/share/ament_index/resource_index/packages
+[1.070s] symbolically linking /home/manoj/spot_ws/build/spot_bringup/resource/spot_bringup -> /home/manoj/spot_ws/install/spot_bringup/share/ament_index/resource_index/packages
+[1.071s] symbolically linking /home/manoj/spot_ws/build/spot_bringup/package.xml -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup
+[1.071s] creating /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/launch
+[1.071s] symbolically linking /home/manoj/spot_ws/build/spot_bringup/launch/spot.gazebo.launch.py -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/launch
+[1.071s] creating /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/config
+[1.072s] symbolically linking /home/manoj/spot_ws/build/spot_bringup/config/spot_bridge.yaml -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/config
+[1.072s] symbolically linking /home/manoj/spot_ws/build/spot_bringup/config/spot.rviz -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/config
+[1.072s] symbolically linking /home/manoj/spot_ws/build/spot_bringup/config/spot_nav.rviz -> /home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/config
+[1.119s] Invoked command in '/home/manoj/spot_ws/build/spot_bringup' returned '0': AMENT_PREFIX_PATH=/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description IGN_GAZEBO_PLUGIN_PATH=/home/manoj/spot_ws/install/spot_gazebo/lib/spot_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/worlds:/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/home/manoj/spot_ws/build/spot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_bringup/build --no-deps symlink_data

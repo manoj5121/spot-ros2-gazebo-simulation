@@ -1,0 +1,3 @@
+[console_scripts]
+thermal_to_rgb = spot_bringup.thermal_to_rgb:main
+

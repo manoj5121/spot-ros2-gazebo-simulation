@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/worlds/edgar_mine.sdf
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/worlds/simple_tunnel.sdf
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/environment/spot_gazebo.dsv
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/environment/spot_gazebo.sh
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/ament_index/resource_index/package_run_dependencies/spot_gazebo
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/ament_index/resource_index/parent_prefix_path/spot_gazebo
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/environment/path.sh
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/environment/path.dsv
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/local_setup.bash
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/local_setup.sh
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/local_setup.zsh
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/local_setup.dsv
+-- Symlinking: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.dsv
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/ament_index/resource_index/packages/spot_gazebo
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/cmake/spot_gazeboConfig.cmake
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/cmake/spot_gazeboConfig-version.cmake
+-- Up-to-date symlink: /home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.xml

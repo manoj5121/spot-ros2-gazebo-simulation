@@ -1,0 +1,1 @@
+/home/manoj/spot_ws/build/spot_description/ament_cmake_environment_hooks/spot_description.sh

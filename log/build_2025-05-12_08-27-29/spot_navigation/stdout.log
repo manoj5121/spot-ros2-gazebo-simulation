@@ -1,0 +1,18 @@
+running egg_info
+writing ../../../build/spot_navigation/spot_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../../build/spot_navigation/spot_navigation.egg-info/dependency_links.txt
+writing entry points to ../../../build/spot_navigation/spot_navigation.egg-info/entry_points.txt
+writing requirements to ../../../build/spot_navigation/spot_navigation.egg-info/requires.txt
+writing top-level names to ../../../build/spot_navigation/spot_navigation.egg-info/top_level.txt
+reading manifest file '../../../build/spot_navigation/spot_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../../build/spot_navigation/spot_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/spot_navigation/spot_navigation.egg-info to /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/manoj/spot_ws/build/spot_navigation/install.log'

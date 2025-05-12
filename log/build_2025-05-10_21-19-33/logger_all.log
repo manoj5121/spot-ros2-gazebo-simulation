@@ -1,0 +1,621 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x748ae837f400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x748ae837ed40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x748ae837ed40>>, mixin_verb=('build',))
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.154s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/manoj/spot_ws'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/assets) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_gazebo/champ' with type 'ros.ament_cmake' and name 'champ'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_base) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_base) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_base) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_base) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_base) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_base) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_base) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_base) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_base) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_gazebo/champ_base' with type 'ros.ament_cmake' and name 'champ_base'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_config) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_config) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_config) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_config) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_config) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_config) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_config) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_config) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_config) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_gazebo/champ_config' with type 'ros.ament_cmake' and name 'champ_config'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_msgs) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_msgs) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_msgs) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_msgs) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_msgs) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_msgs) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_msgs) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/champ_msgs) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_gazebo/champ_msgs' with type 'ros.ament_cmake' and name 'champ_msgs'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_bringup) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_bringup) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_bringup) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_bringup) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_bringup) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_bringup) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_bringup) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_bringup) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_gazebo/spot_bringup' with type 'ros.ament_python' and name 'spot_bringup'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_description) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_description) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_description) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_description) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_description) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_description) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_description) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_description) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_gazebo/spot_description' with type 'ros.ament_cmake' and name 'spot_description'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_gazebo) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_gazebo) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_gazebo) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_gazebo) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_gazebo) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_gazebo) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_gazebo) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_gazebo) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_gazebo/spot_gazebo' with type 'ros.ament_cmake' and name 'spot_gazebo'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_navigation) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_navigation) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_navigation) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_navigation) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_navigation) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_navigation) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_navigation) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_gazebo/spot_navigation) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_gazebo/spot_navigation' with type 'ros.ament_python' and name 'spot_navigation'
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/manoj/spot_ws/install
+[0.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 473 installed packages in /opt/ros/humble
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'champ' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manoj/spot_ws/build/champ', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manoj/spot_ws/install/champ', 'merge_install': False, 'path': '/home/manoj/spot_ws/src/spot_gazebo/champ', 'symlink_install': True, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'champ_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manoj/spot_ws/build/champ_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manoj/spot_ws/install/champ_msgs', 'merge_install': False, 'path': '/home/manoj/spot_ws/src/spot_gazebo/champ_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'spot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manoj/spot_ws/build/spot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manoj/spot_ws/install/spot_description', 'merge_install': False, 'path': '/home/manoj/spot_ws/src/spot_gazebo/spot_description', 'symlink_install': True, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'spot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'spot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manoj/spot_ws/build/spot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manoj/spot_ws/install/spot_navigation', 'merge_install': False, 'path': '/home/manoj/spot_ws/src/spot_gazebo/spot_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'champ_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manoj/spot_ws/build/champ_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manoj/spot_ws/install/champ_base', 'merge_install': False, 'path': '/home/manoj/spot_ws/src/spot_gazebo/champ_base', 'symlink_install': True, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'spot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'spot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manoj/spot_ws/build/spot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manoj/spot_ws/install/spot_gazebo', 'merge_install': False, 'path': '/home/manoj/spot_ws/src/spot_gazebo/spot_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'champ_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manoj/spot_ws/build/champ_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manoj/spot_ws/install/champ_config', 'merge_install': False, 'path': '/home/manoj/spot_ws/src/spot_gazebo/champ_config', 'symlink_install': True, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'spot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'spot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'spot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'spot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'spot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'spot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'spot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'spot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'spot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'spot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manoj/spot_ws/build/spot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manoj/spot_ws/install/spot_bringup', 'merge_install': False, 'path': '/home/manoj/spot_ws/src/spot_gazebo/spot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.215s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.215s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.216s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manoj/spot_ws/src/spot_gazebo/champ' with build type 'ament_cmake'
+[0.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manoj/spot_ws/src/spot_gazebo/champ'
+[0.217s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.219s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manoj/spot_ws/src/spot_gazebo/champ_msgs' with build type 'ament_cmake'
+[0.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manoj/spot_ws/src/spot_gazebo/champ_msgs'
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.222s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manoj/spot_ws/src/spot_gazebo/spot_description' with build type 'ament_cmake'
+[0.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manoj/spot_ws/src/spot_gazebo/spot_description'
+[0.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.224s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/manoj/spot_ws/src/spot_gazebo/spot_navigation' with build type 'ament_python'
+[0.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_navigation', 'ament_prefix_path')
+[0.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/hook/ament_prefix_path.ps1'
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/hook/ament_prefix_path.dsv'
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/hook/ament_prefix_path.sh'
+[0.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/champ -- -j12 -l12
+[0.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_msgs -- -j12 -l12
+[0.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/spot_description -- -j12 -l12
+[0.457s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/manoj/spot_ws/src/spot_gazebo/spot_navigation'
+[0.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/champ -- -j12 -l12
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/champ
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/spot_description -- -j12 -l12
+[0.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/spot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/spot_description
+[0.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_msgs -- -j12 -l12
+[0.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_msgs
+[0.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ)
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/champ
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ' for CMake module files
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ' for CMake config files
+[0.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ', 'cmake_prefix_path')
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ/share/champ/hook/cmake_prefix_path.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ/share/champ/hook/cmake_prefix_path.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ/share/champ/hook/cmake_prefix_path.sh'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ/bin'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ/lib/pkgconfig/champ.pc'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ/lib/python3.10/site-packages'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ/bin'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ/share/champ/package.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/champ/share/champ/package.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ/share/champ/package.sh'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ/share/champ/package.bash'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ/share/champ/package.zsh'
+[0.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/champ/share/colcon-core/packages/champ)
+[0.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ)
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ' for CMake module files
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ' for CMake config files
+[0.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ', 'cmake_prefix_path')
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ/share/champ/hook/cmake_prefix_path.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ/share/champ/hook/cmake_prefix_path.dsv'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ/share/champ/hook/cmake_prefix_path.sh'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ/bin'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ/lib/pkgconfig/champ.pc'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ/lib/python3.10/site-packages'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ/bin'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ/share/champ/package.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/champ/share/champ/package.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ/share/champ/package.sh'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ/share/champ/package.bash'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ/share/champ/package.zsh'
+[0.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/champ/share/colcon-core/packages/champ)
+[0.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spot_description)
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description' for CMake module files
+[0.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/spot_description
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description' for CMake config files
+[0.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_description', 'cmake_prefix_path')
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_description/share/spot_description/hook/cmake_prefix_path.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/spot_description/share/spot_description/hook/cmake_prefix_path.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_description/share/spot_description/hook/cmake_prefix_path.sh'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description/bin'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description/lib/pkgconfig/spot_description.pc'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description/lib/python3.10/site-packages'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description/bin'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.dsv'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.sh'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.bash'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.zsh'
+[0.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/spot_description/share/colcon-core/packages/spot_description)
+[0.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spot_description)
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description' for CMake module files
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description' for CMake config files
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_description', 'cmake_prefix_path')
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_description/share/spot_description/hook/cmake_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/spot_description/share/spot_description/hook/cmake_prefix_path.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_description/share/spot_description/hook/cmake_prefix_path.sh'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description/bin'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description/lib/pkgconfig/spot_description.pc'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description/lib/python3.10/site-packages'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_description/bin'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.sh'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.bash'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_description/share/spot_description/package.zsh'
+[0.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/spot_description/share/colcon-core/packages/spot_description)
+[0.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manoj/spot_ws/src/spot_gazebo/spot_gazebo' with build type 'ament_cmake'
+[0.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manoj/spot_ws/src/spot_gazebo/spot_gazebo'
+[0.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/spot_gazebo': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/manoj/spot_ws/build/spot_gazebo -- -j12 -l12
+[0.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_msgs)
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs' for CMake module files
+[0.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_msgs
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs' for CMake config files
+[0.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'cmake_prefix_path')
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.sh'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/lib'
+[0.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'ld_library_path_lib')
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.ps1'
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.sh'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/bin'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/lib/pkgconfig/champ_msgs.pc'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/lib/python3.10/site-packages'
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/bin'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.ps1'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.dsv'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.sh'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.bash'
+[0.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.zsh'
+[0.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/champ_msgs/share/colcon-core/packages/champ_msgs)
+[0.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_msgs)
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs' for CMake module files
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs' for CMake config files
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'cmake_prefix_path')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.dsv'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.sh'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/lib'
+[0.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'ld_library_path_lib')
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.sh'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/bin'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/lib/pkgconfig/champ_msgs.pc'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/lib/python3.10/site-packages'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_msgs/bin'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.sh'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.bash'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_msgs/share/champ_msgs/package.zsh'
+[0.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/champ_msgs/share/colcon-core/packages/champ_msgs)
+[0.562s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manoj/spot_ws/src/spot_gazebo/champ_base' with build type 'ament_cmake'
+[0.562s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manoj/spot_ws/src/spot_gazebo/champ_base'
+[0.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/spot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/manoj/spot_ws/build/spot_gazebo -- -j12 -l12
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/spot_gazebo': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/manoj/spot_ws/build/spot_gazebo
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/champ_base': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:/home/manoj/spot_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_base -- -j12 -l12
+[0.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spot_gazebo)
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/spot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/manoj/spot_ws/build/spot_gazebo
+[0.586s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo' for CMake module files
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo' for CMake config files
+[0.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_gazebo', 'cmake_prefix_path')
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/hook/cmake_prefix_path.ps1'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/hook/cmake_prefix_path.dsv'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/hook/cmake_prefix_path.sh'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo/bin'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo/lib/pkgconfig/spot_gazebo.pc'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo/lib/python3.10/site-packages'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo/bin'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.sh'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.bash'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.zsh'
+[0.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/spot_gazebo/share/colcon-core/packages/spot_gazebo)
+[0.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spot_gazebo)
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo' for CMake module files
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo' for CMake config files
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_gazebo', 'cmake_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/hook/cmake_prefix_path.ps1'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/hook/cmake_prefix_path.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/hook/cmake_prefix_path.sh'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo/bin'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo/lib/pkgconfig/spot_gazebo.pc'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo/lib/python3.10/site-packages'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_gazebo/bin'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.sh'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.bash'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_gazebo/share/spot_gazebo/package.zsh'
+[0.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/spot_gazebo/share/colcon-core/packages/spot_gazebo)
+[0.596s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/manoj/spot_ws/src/spot_gazebo/spot_bringup' with build type 'ament_python'
+[0.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_bringup', 'ament_prefix_path')
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/hook/ament_prefix_path.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/hook/ament_prefix_path.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/hook/ament_prefix_path.sh'
+[0.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.801s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/manoj/spot_ws/src/spot_gazebo/spot_bringup'
+[0.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/spot_navigation': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_navigation/build --no-deps symlink_data
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/champ_base' returned '0': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:/home/manoj/spot_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_base -- -j12 -l12
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/champ_base': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:/home/manoj/spot_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_base
+[0.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_base)
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base' for CMake module files
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/champ_base' returned '0': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/spot_ws/install/champ_msgs/lib:/home/manoj/spot_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_base
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base' for CMake config files
+[0.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'cmake_prefix_path')
+[0.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.ps1'
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.dsv'
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.sh'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/lib'
+[0.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'ld_library_path_lib')
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/ld_library_path_lib.ps1'
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/ld_library_path_lib.dsv'
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/ld_library_path_lib.sh'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/bin'
+[0.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'path')
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/path.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/path.dsv'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/path.sh'
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/lib/pkgconfig/champ_base.pc'
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/lib/python3.10/site-packages'
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/bin'
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'pythonscriptspath')
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/pythonscriptspath.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/pythonscriptspath.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/pythonscriptspath.sh'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.ps1'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.sh'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.bash'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.zsh'
+[0.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/champ_base/share/colcon-core/packages/champ_base)
+[0.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_base)
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base' for CMake module files
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base' for CMake config files
+[0.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'cmake_prefix_path')
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.dsv'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.sh'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/lib'
+[0.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'ld_library_path_lib')
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/ld_library_path_lib.ps1'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/ld_library_path_lib.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/ld_library_path_lib.sh'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/bin'
+[0.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'path')
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/path.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/path.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/path.sh'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/lib/pkgconfig/champ_base.pc'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/lib/python3.10/site-packages'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_base/bin'
+[0.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'pythonscriptspath')
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/pythonscriptspath.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/pythonscriptspath.dsv'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_base/share/champ_base/hook/pythonscriptspath.sh'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.dsv'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.sh'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.bash'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_base/share/champ_base/package.zsh'
+[0.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/champ_base/share/colcon-core/packages/champ_base)
+[0.844s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manoj/spot_ws/src/spot_gazebo/champ_config' with build type 'ament_cmake'
+[0.844s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manoj/spot_ws/src/spot_gazebo/champ_config'
+[0.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/champ_config': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_config -- -j12 -l12
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/champ_config' returned '0': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/champ_config -- -j12 -l12
+[0.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/champ_config': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_config
+[0.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_config)
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config' for CMake module files
+[0.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/champ_config' returned '0': CMAKE_PREFIX_PATH=/home/manoj/spot_ws/install/champ_base:/home/manoj/spot_ws/install/champ_msgs:/home/manoj/spot_ws/install/champ:/home/manoj/spot_ws/install/spot_gazebo:/home/manoj/spot_ws/install/spot_description:/home/manoj/spot_ws/install/champ_config:/home/manoj/spot_ws/install/spot_navigation:/home/manoj/spot_ws/install/spot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/champ_config
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config' for CMake config files
+[0.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_config', 'cmake_prefix_path')
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_config/share/champ_config/hook/cmake_prefix_path.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_config/share/champ_config/hook/cmake_prefix_path.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_config/share/champ_config/hook/cmake_prefix_path.sh'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config/bin'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config/lib/pkgconfig/champ_config.pc'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config/lib/python3.10/site-packages'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config/bin'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.ps1'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.dsv'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.sh'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.bash'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.zsh'
+[0.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/champ_config/share/colcon-core/packages/champ_config)
+[0.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_config)
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config' for CMake module files
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config' for CMake config files
+[0.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_config', 'cmake_prefix_path')
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_config/share/champ_config/hook/cmake_prefix_path.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/champ_config/share/champ_config/hook/cmake_prefix_path.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/champ_config/share/champ_config/hook/cmake_prefix_path.sh'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config/bin'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config/lib/pkgconfig/champ_config.pc'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config/lib/python3.10/site-packages'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/champ_config/bin'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.ps1'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.dsv'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.sh'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.bash'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/champ_config/share/champ_config/package.zsh'
+[0.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/champ_config/share/colcon-core/packages/champ_config)
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manoj/spot_ws/build/spot_bringup': IGN_GAZEBO_PLUGIN_PATH=/home/manoj/spot_ws/install/spot_gazebo/lib/spot_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/home/manoj/spot_ws/build/spot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_bringup/build --no-deps symlink_data
+[1.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_navigation', 'pythonpath_develop')
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/spot_navigation' returned '0': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_navigation/build --no-deps symlink_data
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/build/spot_navigation/share/spot_navigation/hook/pythonpath_develop.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/build/spot_navigation/share/spot_navigation/hook/pythonpath_develop.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/build/spot_navigation/share/spot_navigation/hook/pythonpath_develop.sh'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_navigation' for CMake module files
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_navigation' for CMake config files
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_navigation/lib'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_navigation/bin'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_navigation/lib/pkgconfig/spot_navigation.pc'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages'
+[1.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_navigation', 'pythonpath')
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/hook/pythonpath.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/hook/pythonpath.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/hook/pythonpath.sh'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_navigation/bin'
+[1.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spot_navigation)
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/package.ps1'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/package.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/package.sh'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/package.bash'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/package.zsh'
+[1.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/spot_navigation/share/colcon-core/packages/spot_navigation)
+[1.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_bringup', 'pythonpath_develop')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/build/spot_bringup/share/spot_bringup/hook/pythonpath_develop.ps1'
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manoj/spot_ws/build/spot_bringup' returned '0': IGN_GAZEBO_PLUGIN_PATH=/home/manoj/spot_ws/install/spot_gazebo/lib/spot_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/home/manoj/spot_ws/build/spot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_bringup/build --no-deps symlink_data
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/build/spot_bringup/share/spot_bringup/hook/pythonpath_develop.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/build/spot_bringup/share/spot_bringup/hook/pythonpath_develop.sh'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_bringup' for CMake module files
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_bringup' for CMake config files
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_bringup/lib'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_bringup/bin'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_bringup/lib/pkgconfig/spot_bringup.pc'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages'
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_bringup', 'pythonpath')
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/hook/pythonpath.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/hook/pythonpath.dsv'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/hook/pythonpath.sh'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/manoj/spot_ws/install/spot_bringup/bin'
+[1.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spot_bringup)
+[1.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/package.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/package.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/package.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/package.bash'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/manoj/spot_ws/install/spot_bringup/share/spot_bringup/package.zsh'
+[1.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manoj/spot_ws/install/spot_bringup/share/colcon-core/packages/spot_bringup)
+[1.317s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.317s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.317s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.317s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.322s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.322s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.322s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.335s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manoj/spot_ws/install/local_setup.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manoj/spot_ws/install/_local_setup_util_ps1.py'
+[1.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manoj/spot_ws/install/setup.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manoj/spot_ws/install/local_setup.sh'
+[1.341s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manoj/spot_ws/install/_local_setup_util_sh.py'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manoj/spot_ws/install/setup.sh'
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manoj/spot_ws/install/local_setup.bash'
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manoj/spot_ws/install/setup.bash'
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manoj/spot_ws/install/local_setup.zsh'
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manoj/spot_ws/install/setup.zsh'

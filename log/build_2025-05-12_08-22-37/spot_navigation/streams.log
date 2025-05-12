@@ -1,0 +1,44 @@
+[0.419s] Invoking command in '/home/manoj/spot_ws/build/spot_navigation': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/manoj/spot_ws/build/spot_navigation/build
+[0.595s] running develop
+[0.704s] Removing /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot-navigation.egg-link (link to .)
+[0.800s] Invoked command in '/home/manoj/spot_ws/build/spot_navigation' returned '0': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/manoj/spot_ws/build/spot_navigation/build
+[0.802s] Invoking command in '/home/manoj/spot_ws/src/spot_gazebo/spot_navigation': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/spot_navigation build --build-base /home/manoj/spot_ws/build/spot_navigation/build install --record /home/manoj/spot_ws/build/spot_navigation/install.log --single-version-externally-managed install_data --force
+[0.961s] running egg_info
+[0.961s] writing ../../../build/spot_navigation/spot_navigation.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../../../build/spot_navigation/spot_navigation.egg-info/dependency_links.txt
+[0.961s] writing entry points to ../../../build/spot_navigation/spot_navigation.egg-info/entry_points.txt
+[0.962s] writing requirements to ../../../build/spot_navigation/spot_navigation.egg-info/requires.txt
+[0.962s] writing top-level names to ../../../build/spot_navigation/spot_navigation.egg-info/top_level.txt
+[0.963s] reading manifest file '../../../build/spot_navigation/spot_navigation.egg-info/SOURCES.txt'
+[0.963s] writing manifest file '../../../build/spot_navigation/spot_navigation.egg-info/SOURCES.txt'
+[0.963s] running build
+[0.963s] running build_py
+[0.963s] creating /home/manoj/spot_ws/build/spot_navigation/build
+[0.963s] creating /home/manoj/spot_ws/build/spot_navigation/build/lib
+[0.964s] creating /home/manoj/spot_ws/build/spot_navigation/build/lib/spot_navigation
+[0.964s] copying spot_navigation/__init__.py -> /home/manoj/spot_ws/build/spot_navigation/build/lib/spot_navigation
+[0.964s] running install
+[0.964s] running install_lib
+[0.964s] creating /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation
+[0.964s] copying /home/manoj/spot_ws/build/spot_navigation/build/lib/spot_navigation/__init__.py -> /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation
+[0.964s] byte-compiling /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation/__init__.py to __init__.cpython-310.pyc
+[0.964s] running install_data
+[0.964s] copying resource/spot_navigation -> /home/manoj/spot_ws/install/spot_navigation/share/ament_index/resource_index/packages
+[0.964s] copying package.xml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation
+[0.965s] copying package.xml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation
+[0.965s] copying launch/AMCL_localization.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.965s] copying launch/slam_toolbox_online_async.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.965s] copying launch/dlo.mapping.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.965s] copying launch/dlo.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.965s] copying launch/lidar_localization.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.965s] copying config/dlo.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.965s] copying config/localization.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.965s] copying config/nav2_params.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.965s] copying config/mapper_params_online_async.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.965s] copying config/spot_nav.rviz -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.965s] copying config/dlo.rviz -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.966s] running install_egg_info
+[0.967s] Copying ../../../build/spot_navigation/spot_navigation.egg-info to /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation-0.0.0-py3.10.egg-info
+[0.967s] running install_scripts
+[0.980s] writing list of installed files to '/home/manoj/spot_ws/build/spot_navigation/install.log'
+[0.997s] Invoked command in '/home/manoj/spot_ws/src/spot_gazebo/spot_navigation' returned '0': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/spot_navigation build --build-base /home/manoj/spot_ws/build/spot_navigation/build install --record /home/manoj/spot_ws/build/spot_navigation/install.log --single-version-externally-managed install_data --force

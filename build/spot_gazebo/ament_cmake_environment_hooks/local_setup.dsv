@@ -1,0 +1,4 @@
+source;share/spot_gazebo/environment/ament_prefix_path.sh
+source;share/spot_gazebo/environment/path.sh
+source;share/spot_gazebo/environment/spot_gazebo.sh
+source;share/spot_gazebo/environment/spot_gazebo.dsv

@@ -1,0 +1,59 @@
+[0.012s] Invoking command in '/home/manoj/spot_ws/build/spot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/spot_description -- -j12 -l12
+[0.178s] Invoked command in '/home/manoj/spot_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/manoj/spot_ws/build/spot_description -- -j12 -l12
+[0.179s] Invoking command in '/home/manoj/spot_ws/build/spot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/spot_description
+[0.186s] -- Install configuration: ""
+[0.186s] -- Execute custom install script
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/PPV4_Sim_Base.STL
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/birdcage.STL
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/body.dae
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/body_collision.stl
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_hip.dae
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_hip_collision.stl
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_lower_leg.dae
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_lower_leg_collision.stl
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_upper_leg.dae
+[0.188s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_left_upper_leg_collision.stl
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_hip.dae
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_hip_collision.stl
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_lower_leg.dae
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_lower_leg_collision.stl
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_upper_leg.dae
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/front_right_upper_leg_collision.stl
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/lidar_3d_v1.dae
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/lidar_3d_v1.jpg
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_hip.dae
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_hip_collision.stl
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_lower_leg.dae
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_lower_leg_collision.stl
+[0.189s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_upper_leg.dae
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_left_upper_leg_collision.stl
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_hip.dae
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_hip_collision.stl
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_lower_leg.dae
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_lower_leg_collision.stl
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_upper_leg.dae
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/rear_right_upper_leg_collision.stl
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/sensor_payload_link.STL
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/spot_mat.png
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/meshes/spot_payload.stl
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/model.config
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/model.sdf
+[0.190s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/models/spot/model.urdf
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/environment/spot_description.dsv
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/environment/spot_description.sh
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/ament_index/resource_index/package_run_dependencies/spot_description
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/ament_index/resource_index/parent_prefix_path/spot_description
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.sh
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/environment/ament_prefix_path.dsv
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/environment/path.sh
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/environment/path.dsv
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/local_setup.bash
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/local_setup.sh
+[0.191s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/local_setup.zsh
+[0.192s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/local_setup.dsv
+[0.192s] -- Symlinking: /home/manoj/spot_ws/install/spot_description/share/spot_description/package.dsv
+[0.199s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/ament_index/resource_index/packages/spot_description
+[0.199s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig.cmake
+[0.199s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/cmake/spot_descriptionConfig-version.cmake
+[0.199s] -- Up-to-date symlink: /home/manoj/spot_ws/install/spot_description/share/spot_description/package.xml
+[0.212s] Invoked command in '/home/manoj/spot_ws/build/spot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/manoj/spot_ws/build/spot_description

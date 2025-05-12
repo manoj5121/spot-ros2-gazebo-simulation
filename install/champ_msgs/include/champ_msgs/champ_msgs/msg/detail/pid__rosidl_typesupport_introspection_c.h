@@ -1,0 +1,1 @@
+/home/manoj/spot_ws/build/champ_msgs/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_c.h

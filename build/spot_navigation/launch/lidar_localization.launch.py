@@ -1,0 +1,1 @@
+/home/manoj/spot_ws/src/spot_gazebo/spot_navigation/launch/lidar_localization.launch.py

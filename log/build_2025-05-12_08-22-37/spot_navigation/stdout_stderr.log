@@ -1,0 +1,40 @@
+running develop
+Removing /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot-navigation.egg-link (link to .)
+running egg_info
+writing ../../../build/spot_navigation/spot_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../../build/spot_navigation/spot_navigation.egg-info/dependency_links.txt
+writing entry points to ../../../build/spot_navigation/spot_navigation.egg-info/entry_points.txt
+writing requirements to ../../../build/spot_navigation/spot_navigation.egg-info/requires.txt
+writing top-level names to ../../../build/spot_navigation/spot_navigation.egg-info/top_level.txt
+reading manifest file '../../../build/spot_navigation/spot_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../../build/spot_navigation/spot_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/manoj/spot_ws/build/spot_navigation/build
+creating /home/manoj/spot_ws/build/spot_navigation/build/lib
+creating /home/manoj/spot_ws/build/spot_navigation/build/lib/spot_navigation
+copying spot_navigation/__init__.py -> /home/manoj/spot_ws/build/spot_navigation/build/lib/spot_navigation
+running install
+running install_lib
+creating /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation
+copying /home/manoj/spot_ws/build/spot_navigation/build/lib/spot_navigation/__init__.py -> /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation
+byte-compiling /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/spot_navigation -> /home/manoj/spot_ws/install/spot_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation
+copying package.xml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation
+copying launch/AMCL_localization.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+copying launch/slam_toolbox_online_async.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+copying launch/dlo.mapping.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+copying launch/dlo.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+copying launch/lidar_localization.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+copying config/dlo.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+copying config/localization.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+copying config/nav2_params.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+copying config/mapper_params_online_async.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+copying config/spot_nav.rviz -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+copying config/dlo.rviz -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+running install_egg_info
+Copying ../../../build/spot_navigation/spot_navigation.egg-info to /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/manoj/spot_ws/build/spot_navigation/install.log'

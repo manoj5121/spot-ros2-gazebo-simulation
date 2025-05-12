@@ -1,0 +1,17 @@
+[0.433s] Invoking command in '/home/manoj/spot_ws/build/spot_bringup': IGN_GAZEBO_PLUGIN_PATH=/home/manoj/spot_ws/install/spot_gazebo/lib/spot_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/home/manoj/spot_ws/build/spot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_bringup/build --no-deps symlink_data
+[0.593s] running develop
+[0.699s] running egg_info
+[0.699s] writing spot_bringup.egg-info/PKG-INFO
+[0.699s] writing dependency_links to spot_bringup.egg-info/dependency_links.txt
+[0.699s] writing entry points to spot_bringup.egg-info/entry_points.txt
+[0.699s] writing requirements to spot_bringup.egg-info/requires.txt
+[0.699s] writing top-level names to spot_bringup.egg-info/top_level.txt
+[0.700s] reading manifest file 'spot_bringup.egg-info/SOURCES.txt'
+[0.701s] writing manifest file 'spot_bringup.egg-info/SOURCES.txt'
+[0.701s] running build_ext
+[0.701s] Creating /home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages/spot-bringup.egg-link (link to .)
+[0.702s] Installing thermal_to_rgb script to /home/manoj/spot_ws/install/spot_bringup/lib/spot_bringup
+[0.702s] 
+[0.702s] Installed /home/manoj/spot_ws/build/spot_bringup
+[0.702s] running symlink_data
+[0.717s] Invoked command in '/home/manoj/spot_ws/build/spot_bringup' returned '0': IGN_GAZEBO_PLUGIN_PATH=/home/manoj/spot_ws/install/spot_gazebo/lib/spot_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/manoj/spot_ws/install/spot_description/share/spot_description/models:${IGN_GAZEBO_RESOURCE_PATH} PYTHONPATH=/home/manoj/spot_ws/build/spot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_bringup/build --no-deps symlink_data

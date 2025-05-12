@@ -1,0 +1,36 @@
+[0.452s] Invoking command in '/home/manoj/spot_ws/build/spot_navigation': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_navigation/build --no-deps symlink_data
+[0.616s] running develop
+[0.730s] running egg_info
+[0.730s] creating spot_navigation.egg-info
+[0.730s] writing spot_navigation.egg-info/PKG-INFO
+[0.731s] writing dependency_links to spot_navigation.egg-info/dependency_links.txt
+[0.731s] writing entry points to spot_navigation.egg-info/entry_points.txt
+[0.731s] writing requirements to spot_navigation.egg-info/requires.txt
+[0.731s] writing top-level names to spot_navigation.egg-info/top_level.txt
+[0.731s] writing manifest file 'spot_navigation.egg-info/SOURCES.txt'
+[0.732s] reading manifest file 'spot_navigation.egg-info/SOURCES.txt'
+[0.732s] writing manifest file 'spot_navigation.egg-info/SOURCES.txt'
+[0.733s] running build_ext
+[0.733s] Creating /home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages/spot-navigation.egg-link (link to .)
+[0.733s] 
+[0.733s] Installed /home/manoj/spot_ws/build/spot_navigation
+[0.734s] running symlink_data
+[0.734s] creating /home/manoj/spot_ws/install/spot_navigation/share/ament_index
+[0.734s] creating /home/manoj/spot_ws/install/spot_navigation/share/ament_index/resource_index
+[0.734s] creating /home/manoj/spot_ws/install/spot_navigation/share/ament_index/resource_index/packages
+[0.734s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/resource/spot_navigation -> /home/manoj/spot_ws/install/spot_navigation/share/ament_index/resource_index/packages
+[0.734s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/package.xml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation
+[0.734s] creating /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.734s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/AMCL_localization.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.734s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/slam_toolbox_online_async.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.734s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/dlo.mapping.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.734s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/dlo.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.734s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/launch/lidar_localization.launch.py -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/launch
+[0.734s] creating /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.735s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/dlo.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.735s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/localization.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.735s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/nav2_params.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.735s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/mapper_params_online_async.yaml -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.735s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/spot_nav.rviz -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.735s] symbolically linking /home/manoj/spot_ws/build/spot_navigation/config/dlo.rviz -> /home/manoj/spot_ws/install/spot_navigation/share/spot_navigation/config
+[0.756s] Invoked command in '/home/manoj/spot_ws/build/spot_navigation' returned '0': PYTHONPATH=/home/manoj/spot_ws/build/spot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/spot_ws/install/spot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manoj/spot_ws/build/spot_navigation/build --no-deps symlink_data
